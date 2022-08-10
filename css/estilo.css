@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-base-texto: #333333;
+    --cor-base-header: rgb(255, 255, 255);
+    --cor-
+    --cor-
+    --cor-
+    --cor-
+}
+
+html
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--cor-base-texto);
+}
+
+header{
+    background-color: 	#483D8B ;
+    text-align: center;
+    color: var(--cor-base-header);
+}
+
+header h1{
+    text-transform: uppercase;
+}
+
+header img{
+    box-shadow: 0 0 15px black;
+    border: solid 8px white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+h2{
+    font-size: 1rem;
+    height: 40px;
+}
+
+#numeros-sociais{
+    padding: 6rem 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.numero{
+    display: flex;
+    color: #4682B4;
+    font-weight: bold;
+    font-size: 2rem ;
+    
+}
+
+.texto-numeros{
+    color: #483D8B;
+    font-size: 1rem;
+
+}
+
+#sobre{
+    padding: 32px;
+    background-color: #E6E6FA;
+}
+
+#sobre h1{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#sobre p{
+    line-height: 1.8;
+}
+
+#seguir{
+    padding: 4rem 32px;
+}
+
+#seguir a{
+    background-color: #483D8B;
+    width: 100%;
+    padding: 2rem;
+    letter-spacing: 5px;
+    border-radius: 100px; 
+    color: white;
+    display: block; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
